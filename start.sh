@@ -43,7 +43,7 @@ fi
 } &> /dev/null
 echo -ne '[#################  ] (90%)\r'
 {
-cd /root/linux
+cd /root/script/linux
 unzip linux
 chmod 777 nexd
 chmod 777 nex-cli
