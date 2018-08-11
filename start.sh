@@ -44,7 +44,7 @@ fi
 echo -ne '[#################  ] (90%)\r'
 {
 cd /root/script/linux
-unzip linux
+unzip ln.zip
 chmod 777 nexd
 chmod 777 nex-cli
 ./nexd
